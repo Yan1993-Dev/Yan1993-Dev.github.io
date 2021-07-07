@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut" href="../icons/favicon.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93">
+    <title>StoAvto</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="company_logo_wrapper">
+                    <a class="logo" href="../main/index.html"><img src="../images/logo.png" alt="company_logo"></a>
+                </div>
+                    <div class="burger__wrapper">
+                        <input type="checkbox" id="burger-menu">
+                        <label for="burger-menu" class="burger__btn">Каталог автомобилей</label>
+                        <div class="burger__line_first"></div>
+                        <div class="burger__line_second"></div>
+                        <div class="burger__line-third"></div>
+                        <div class="burger__line-fourth"></div>
+                        <nav class="main_menu">
+                            <a href="" class="burger__catalog">Geely</a>
+                            <a href="" class="burger__catalog">Haval</a>
+                            <a href="" class="burger__catalog">Chery</a>
+                        </nav>
+                    </div>
+                    <ul class="adress">
+                        <li class="adress_item"><img src="../icons/Vector.svg" alt="" class="icon_dot">
+                            г.Краснодар, ул.Иванова, 16А
+                        </li>
+                        <li class="adress_item" ><img src="../icons/Vector.svg" alt="" class="icon_dot">
+                            г.Краснодар, ул.Пушкина, 32
+                        </li>
+                    </ul>
+                    <div class="phone_wrapper">
+                        <a href="tel:(044) 222-22-22" class="icon_dot"><img src="../icons/phone.svg" alt="phone_icon" class="icon_dot">(044) 222-22-22</a>
+                        <p class="work_schedule"><img src="../icons/clock.svg" alt="clock_work" class="icon_dot">Пн-Сб: 10:00 - 19:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="nav">
+            <li class="nav_item">
+                <a class="nav_item-link" href="#">Дизайн</a>
+            </li>
+            <li class="nav_item">
+                <a class="nav_item-link" href="#">Видеообзоры</a>
+            </li>
+            <li class="nav_item">
+                <a class="nav_item-link" href="#">Комплектация и цены</a>
+            </li>
+            <li class="nav_item">
+                <a class="nav_item-link" href="#">Характеристики</a>
+            </li>
+        </ul>
+    </header>
+    <main class="main"> 
+        <section class="title">
+            <div class="main_wrapper">
+                <h1 class="main_title">
+                    Chery Tiggo 4
+                </h1>
+                <p class="sub_text">От 1 124 900 руб.</p>
+                <div class="sub_text_wrapper">
+                    <p class="sub_text">В кредит за <span class="text_color"> 11 990 р/месяц</span> или меньше!</p>
+                    <p class="sub_text second">Подарок: <span class="text_color">5000</span> бонусных рублей!</p>
+                </div>
+                <button class="btn open_popup_js">
+                    Записаться на Тест-драйв
+                </button>
+            </div>
+        </section>
+        <div class="slider_wrapper">
+            <div class="slider-container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide card"><img src="../images/red_tiggo4.jpg" alt="" class="img_slider"></div>
+                        <div class="swiper-slide card"><img src="../images/white_tiggo4.jpg" alt="" class="img_slider"></div>
+                        <div class="swiper-slide card"><img src="../images/w_tiggo4.jpg" alt="" class="img_slider"></div>
+                        <div class="swiper-slide card"><img src="../images/blue_tiggo4.png" alt="" class="img_slider"></div>
+                    </div>
+                    <div class="slider-buttons">
+                        <button class="swiper-button-prev"></button>
+                        <button class="swiper-button-next"></button>
+                    </div>
+                    <div class="swiper_pagination">
+                        <img src="../icons/slider_control.svg" alt="" class="slider_img_title">
+                        <img src="../icons/slider_control_black.svg" alt="" class="slider_img_title">
+                        <img src="../icons/slider_control_grey.svg" alt="" class="slider_img_title">
+                        <img src="../icons/slider_control_red.svg" alt="" class="slider_img_title">
+                        <img src="../icons/slider_control.svg" alt="" class="slider_img_title">
+                        <img src="../icons/slider_control_black.svg" alt="" class="slider_img_title">
+                        <img src="../icons/slider_control_grey.svg" alt="" class="slider_img_title">
+                        <img src="../icons/slider_control_red.svg" alt="" class="slider_img_title">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="form_wrapper">
+        <section class="form_traid-in">
+            <h2 class="sub_title">
+                Калькулятор расчета traid-in
+            </h2>
+            <form class="traid-in_calc" action="https://echo.htmlacademy.ru" method="post">
+                <div class="field">
+                    <label for="input__name" class="label__traid-in">Имя</label>
+                    <input type="text" id="input__name" class="input__traid-in" placeholder="Ваше имя">
+                </div>
+                <div class="field__wrapper">
+                    <div class="field">
+                        <label for="input__phone" class="label__traid-in">Телефон</label>
+                        <input type="text" id="input__phone" class="input__traid-in" placeholder="Ваш телефон">
+                    </div>
+                    <div class="field">
+                        <label for="input__model" class="label__traid-in">Марка</label>
+                        <input type="email" id="input__text" class="input__traid-in" placeholder="Марка автомобиля">
+                    </div>
+                    <div class="field">
+                        <label for="input__model" class="label__traid-in">Модель</label>
+                        <input type="email" id="input__text" class="input__traid-in" placeholder="Модель автомобиля">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input id="check-receipt" type="radio" class="checkbox__input " checked value="Receipt">
+                    <label for="check-receipt" class="checkbox__label">Согласие на обработку ПД</label>
+                </div>
+                <button class="btn credit__btn" type="submit">Отправить</button>
+            </form>
+        </section>
+        <section class="credit_calc">
+            <h2 class="sub_title">
+                Калькулятор расчета кредита
+            </h2>
+            <form class="credit_calc_wp" action="https://echo.htmlacademy.ru" method="post">
+                <div class="field">
+                    <label for="input__name" class="label__traid-in">Имя</label>
+                    <input type="text" id="input__name" class="input__traid-in" placeholder="Ваше имя">
+                </div>
+                <div class="field__wrapper">
+                    <div class="field">
+                        <label for="input__phone" class="label__traid-in">Телефон</label>
+                        <input type="text" id="input__phone" class="input__traid-in" placeholder="Ваш телефон">
+                    </div>
+                    <div class="field">
+                        <label for="input__text" class="label__traid-in">Первый взнос</label>
+                        <select class="input_inner input__traid-in">
+                            <option class="">Первый взнос</option>
+                            <option>100 000руб.</option>
+                            <option>200 000руб.</option>
+                            <option>300 000руб.</option>
+                            <option>400 000руб.</option>
+                            <option>500 000руб.</option>
+                            <option>600 000руб.</option>
+                            <option>700 000руб.</option>
+                            <option>800 000руб.</option>
+                            <option>900 000руб.</option>
+                            <option>1 000 000руб.</option>
+                            <option>1 369 900руб.</option>
+                          </select>
+                    </div>
+                    <div class="field">
+                        <label for="input__phone" class="label__traid-in">Срок</label>
+                        <input type="text" id="input__phone" class="input__traid-in" placeholder="Срок">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input id="check-receipt" type="radio" class="checkbox__input " checked value="Receipt">
+                    <label for="check-receipt" class="checkbox__label">Согласие на обработку ПД</label>
+                </div>
+                <button class="btn disabled__btn" type="submit" >Отправить</button>
+            </form>
+        </section>
+    </div>
+    </section>
+    <div class="slider_wrapper_one">
+        <div class="slider-container_one">
+            <div class="swiper-container_one">
+                <div class="line_title_three">
+                    <h2 class="slider_title_one">Экстерьер</h2>
+                    </div>
+                <div class="slider-buttons_one">
+                    <button class="swiper-button-prev_one"></button>
+                    <button class="swiper-button-next_one"></button>
+                </div>
+                <div class="swiper-wrapper_one">
+                    <div class="swiper-slide_one card_one"><img src="../images/Rectangle 25.png" alt="" class="img_slider_one">
+                    <p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                        современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                        
+                        стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                        
+                        фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                         фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                        хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+и, даже спортивный вид.</p>
+                    </div>
+                    <div class="swiper-slide_one card_one"><img src="../images/Rectangle 25.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                        современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                        
+                        стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                        
+                        фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                         фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                        хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+и, даже спортивный вид.</p>
+</div>
+                    <div class="swiper-slide_one card_one"><img src="../images/Rectangle 25.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                        современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                        
+                        стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                        
+                        фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                         фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                        хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+и, даже спортивный вид.</p>
+</div>
+                    <div class="swiper-slide_one card_one"><img src="../images/Rectangle 25.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                        современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                        
+                        стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                        
+                        фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                         фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                        хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+и, даже спортивный вид.</p>
+                </div>
+                </div>
+                <div class="swiper-pagination_one"></div>
+            </div>
+        </div>
+    </div>
+        <div class="slider-container_two">
+            <div class="line_title_two">
+                <h2 class="slider_title_two">Интерьер</h2>
+            </div>
+            <div class="slider-buttons">
+                <button class="swiper-button-prev_two"></button>
+                <button class="swiper-button-next_two"></button>
+            </div>
+            <div class="swiper-container_two">
+                <div class="swiper-wrapper_two">
+                    <div class="swiper-slide_two card_two"><img src="../images/Rectangle 55.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                        современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                        
+                        стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                        
+                        фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                         фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                        хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+и, даже спортивный вид.</p>
+                        </div>
+                    <div class="swiper-slide_two card_two"><img src="../images/Rectangle 55.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                        современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                        
+                        стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                        
+                        фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                         фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                        хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+и, даже спортивный вид.</p>
+                        </div>
+                    <div class="swiper-slide_two card_two"><img src="../images/Rectangle 55.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                        современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                        
+                        стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                        
+                        фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                         фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                        хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+и, даже спортивный вид.</p>
+</div>
+                    <div class="swiper-slide_two card_two"><img src="../images/Rectangle 55.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                        современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                        
+                        стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                        
+                        фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                         фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                        хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+и, даже спортивный вид.</p>
+</div>
+                </div>
+                <div class="swiper-pagination_one"></div>
+            </div>
+        </div>            
+        
+        <div class="slider-container_three">
+            <div class="line_title_three"></div>
+                <h2 class="slider_title_three">комфорт и опции</h2>
+                    <div class="slider-buttons">
+                        <button class="swiper-button-prev_three"></button>
+                        <button class="swiper-button-next_three"></button>
+                                </div>
+                        <div class="swiper-container_three">
+                            <div class="swiper-wrapper_three">
+                                <div class="swiper-slide_three card_three"><img src="../images/Rectangle 56.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                                    современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                                    
+                                    стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                                    
+                                    фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                                    фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                                    хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+            и, даже спортивный вид.</p></div>
+                                <div class="swiper-slide_three card_three"><img src="../images/Rectangle 56.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                                    современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                                    
+                                    стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                                    
+                                    фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                                    фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                                    хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+            и, даже спортивный вид.</p></div>
+                                <div class="swiper-slide_three card_three"><img src="../images/Rectangle 56.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                                    современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                                    
+                                    стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                                    
+                                    фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                                    фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                                    хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+            и, даже спортивный вид.</p></div>
+                                <div class="swiper-slide_three card_three"><img src="../images/Rectangle 56.png" alt="" class="img_slider_one"><p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и 
+                                    современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и 
+                                    
+                                    стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и 
+                                    
+                                    фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ автомобиля. Задняя часть Tiggo 4 может похвастать крупными светодиодными
+                                    фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, 
+                                    хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
+            и, даже спортивный вид.</p></div>
+                            </div>
+                            <div class="swiper-pagination_one"></div>
+                        </div>
+        </div>
+            <div class="equip">
+                <div class="equipment_wrapper">
+                    <ul class="equipment_to_title">
+                        <li class="equipment_item_comp">Комплектация</li>
+                        <li class="equipment_item_price">Цена</li>
+                        <li class="equipment_item_final">Финальная цена</li>
+                    </ul>
+                </div>
+                <div class="ex ex-3">
+                    <ul class="accordion__list">
+                        <li class="accordion">
+                            <button class="accordion__control" aria-expanded="false">
+                                <span class="accordion__title">
+                                    <ul class="equipment_title_two">
+                                        <li class="equipment_item accordion__icon"><svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
+                                            </svg></li>
+                                        <li class="equipment_item_model">1,5 МТ Base</li>
+                                        <li class="equipment_item_old_price">1 129 900 руб.</li>
+                                        <li class="equipment_item_new_price">1 124 900 руб</li>
+                                        <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+                                        <li class="equipment_item_credit_btn">Рассчитать кредит</li>
+                                    </ul>
+                                </span>
+                            </button>
+                            <div class="accordion__content" aria-hidden="true">
+                                <h3 class="save_title">Безопасность</h3>
+                                <ul class="save">
+                                    <li class="save_item">Сталь BENTELER</li>
+                                    <li class="save_item">Оцинкованный кузов</li>
+                                    <li class="save_item">Гарантия 5 лет</li>
+                                    <li class="save_item">Эра Глонасс</li>
+                                    <li class="save_item">Иммобилайзер - электронное противоугонное устройство</li>
+                                    <li class="save_item">Задние датчики парковки</li>
+                                    <li class="save_item">Система мониторинга давления и температуры в шинах (TMPS)</li>
+                                </ul>
+                                <h3 class="design_title">Дизайн</h3>
+                                <ul class="design">
+                                    <li class="design_item">16-дюймовые алюминиевые литые диски</li>
+                                    <li class="design_item">Рейлинги на крыше</li>
+                                    <li class="design_item">Окраска металлик (на выбор)</li>
+                                    <li class="design_item">Окраска зеркал и ручек в цвет кузова</li>
+                                    <li class="design_item">Расширители колесных арок</li>
+                                    <li class="design_item">Скрытая выхлопная труба</li>
+                                </ul>
+                                <h3 class="comfort_title">Комфорт</h3>
+                                <ul class="comfort">
+                                    <li class="comfort_item">Обогрев передних сидений</li>
+                                    <li class="comfort_item">Тканевая отделка сидений</li>
+                                    <li class="comfort_item">Водительское сиденье с мех. регулировкой в 6 напр. (продольная, по высоте, наклону спинки)</li>
+                                    <li class="comfort_item">Пассажирское сиденье с механической регулировкой в 4-х направлениях</li>
+                                    <li class="comfort_item">Складная спинка сидения второго ряда в соотношении 1/3-2/3</li>
+                                    <li class="comfort_item">3 задних подголовника, регулируемые по высоте</li>
+                                    <li class="comfort_item">Электрический кондиционер</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="accordion">
+                            <button class="accordion__control" aria-expanded="false">
+                                <span class="accordion__title">
+                                    <ul class="equipment_title_two">
+                                        <li class="equipment_item accordion__icon"><svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
+                                            </svg></li>
+                                        <li class="equipment_item_model">1,5 МТ Base</li>
+                                        <li class="equipment_item_old_price">1 129 900 руб.</li>
+                                        <li class="equipment_item_new_price">1 124 900 руб</li>
+                                        <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+                                        <li class="equipment_item_credit_btn">Рассчитать кредит</li>
+                                    </ul>
+                                </span>
+                            </button>
+                            <div class="accordion__content" aria-hidden="true">
+                                <p class="save_title">В дополнение к комплектации 1,5 MT Base:</p>
+                                <h3 class="save_title">Безопасность</h3>
+                                <ul class="save">
+                                    <li class="save_item">Сталь BENTELER</li>
+                                    <li class="save_item">Оцинкованный кузов</li>
+                                    <li class="save_item">Гарантия 5 лет</li>
+                                    <li class="save_item">Эра Глонасс</li>
+                                    <li class="save_item">Иммобилайзер - электронное противоугонное устройство</li>
+                                    <li class="save_item">Задние датчики парковки</li>
+                                    <li class="save_item">Система мониторинга давления и температуры в шинах (TMPS)</li>
+                                </ul>
+                                <h3 class="design_title">Дизайн</h3>
+                                <ul class="design">
+                                    <li class="design_item">16-дюймовые алюминиевые литые диски</li>
+                                    <li class="design_item">Рейлинги на крыше</li>
+                                    <li class="design_item">Окраска металлик (на выбор)</li>
+                                    <li class="design_item">Окраска зеркал и ручек в цвет кузова</li>
+                                    <li class="design_item">Расширители колесных арок</li>
+                                    <li class="design_item">Скрытая выхлопная труба</li>
+                                </ul>
+                                <h3 class="comfort_title">Комфорт</h3>
+                                <ul class="comfort">
+                                    <li class="comfort_item">Обогрев передних сидений</li>
+                                    <li class="comfort_item">Тканевая отделка сидений</li>
+                                    <li class="comfort_item">Водительское сиденье с мех. регулировкой в 6 напр. (продольная, по высоте, наклону спинки)</li>
+                                    <li class="comfort_item">Пассажирское сиденье с механической регулировкой в 4-х направлениях</li>
+                                    <li class="comfort_item">Складная спинка сидения второго ряда в соотношении 1/3-2/3</li>
+                                    <li class="comfort_item">3 задних подголовника, регулируемые по высоте</li>
+                                    <li class="comfort_item">Электрический кондиционер</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="accordion">
+                            <button class="accordion__control" aria-expanded="false">
+                           <span class="accordion__title">
+                                    <ul class="equipment_title_two">
+                                        <li class="equipment_item accordion__icon"><svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
+                                            </svg></li>
+                                        <li class="equipment_item_model">1,5 МТ Base</li>
+                                        <li class="equipment_item_old_price">1 129 900 руб.</li>
+                                        <li class="equipment_item_new_price">1 124 900 руб</li>
+                                        <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+                                        <li class="equipment_item_credit_btn">Рассчитать кредит</li>
+                                    </ul>
+                                </span>
+                            </button>
+                            <div class="accordion__content" aria-hidden="true">
+                                <p class="save_title">В дополнение к комплектации 1,5 MT Comfort:</p>
+                                <h3 class="save_title">Безопасность</h3>
+                                <ul class="save">
+                                    <li class="save_item">Сталь BENTELER</li>
+                                    <li class="save_item">Оцинкованный кузов</li>
+                                    <li class="save_item">Гарантия 5 лет</li>
+                                    <li class="save_item">Эра Глонасс</li>
+                                    <li class="save_item">Иммобилайзер - электронное противоугонное устройство</li>
+                                    <li class="save_item">Задние датчики парковки</li>
+                                    <li class="save_item">Система мониторинга давления и температуры в шинах (TMPS)</li>
+                                </ul>
+                                <h3 class="design_title">Дизайн</h3>
+                                <ul class="design">
+                                    <li class="design_item">16-дюймовые алюминиевые литые диски</li>
+                                    <li class="design_item">Рейлинги на крыше</li>
+                                    <li class="design_item">Окраска металлик (на выбор)</li>
+                                    <li class="design_item">Окраска зеркал и ручек в цвет кузова</li>
+                                    <li class="design_item">Расширители колесных арок</li>
+                                    <li class="design_item">Скрытая выхлопная труба</li>
+                                </ul>
+                                <h3 class="comfort_title">Комфорт</h3>
+                                <ul class="comfort">
+                                    <li class="comfort_item">Обогрев передних сидений</li>
+                                    <li class="comfort_item">Тканевая отделка сидений</li>
+                                    <li class="comfort_item">Водительское сиденье с мех. регулировкой в 6 напр. (продольная, по высоте, наклону спинки)</li>
+                                    <li class="comfort_item">Пассажирское сиденье с механической регулировкой в 4-х направлениях</li>
+                                    <li class="comfort_item">Складная спинка сидения второго ряда в соотношении 1/3-2/3</li>
+                                    <li class="comfort_item">3 задних подголовника, регулируемые по высоте</li>
+                                    <li class="comfort_item">Электрический кондиционер</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="accordion">
+                            <button class="accordion__control" aria-expanded="false">
+                                <span class="accordion__title">
+                                    <ul class="equipment_title_two">
+                                        <li class="equipment_item accordion__icon"><svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
+                                            </svg></li>
+                                        <li class="equipment_item_model">1,5 МТ Base</li>
+                                        <li class="equipment_item_old_price">1 129 900 руб.</li>
+                                        <li class="equipment_item_new_price">1 124 900 руб</li>
+                                        <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+                                        <li class="equipment_item_credit_btn">Рассчитать кредит</li>
+                                    </ul>
+                                </span>
+                            </button>
+                            <div class="accordion__content" aria-hidden="true">
+                                <p class="save_title">В дополнение к комплектации 1,5 MT Comfort:</p>
+                                <h3 class="save_title">Безопасность</h3>
+                                <ul class="save">
+                                    <li class="save_item">Сталь BENTELER</li>
+                                    <li class="save_item">Оцинкованный кузов</li>
+                                    <li class="save_item">Гарантия 5 лет</li>
+                                    <li class="save_item">Эра Глонасс</li>
+                                    <li class="save_item">Иммобилайзер - электронное противоугонное устройство</li>
+                                    <li class="save_item">Задние датчики парковки</li>
+                                    <li class="save_item">Система мониторинга давления и температуры в шинах (TMPS)</li>
+                                </ul>
+                                <h3 class="design_title">Дизайн</h3>
+                                <ul class="design">
+                                    <li class="design_item">16-дюймовые алюминиевые литые диски</li>
+                                    <li class="design_item">Рейлинги на крыше</li>
+                                    <li class="design_item">Окраска металлик (на выбор)</li>
+                                    <li class="design_item">Окраска зеркал и ручек в цвет кузова</li>
+                                    <li class="design_item">Расширители колесных арок</li>
+                                    <li class="design_item">Скрытая выхлопная труба</li>
+                                </ul>
+                                <h3 class="comfort_title">Комфорт</h3>
+                                <ul class="comfort">
+                                    <li class="comfort_item">Обогрев передних сидений</li>
+                                    <li class="comfort_item">Тканевая отделка сидений</li>
+                                    <li class="comfort_item">Водительское сиденье с мех. регулировкой в 6 напр. (продольная, по высоте, наклону спинки)</li>
+                                    <li class="comfort_item">Пассажирское сиденье с механической регулировкой в 4-х направлениях</li>
+                                    <li class="comfort_item">Складная спинка сидения второго ряда в соотношении 1/3-2/3</li>
+                                    <li class="comfort_item">3 задних подголовника, регулируемые по высоте</li>
+                                    <li class="comfort_item">Электрический кондиционер</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="accordion">
+                            <button class="accordion__control" aria-expanded="false">
+                                <span class="accordion__title">
+                                    <ul class="equipment_title_two">
+                                        <li class="equipment_item accordion__icon"><svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
+                                            </svg></li>
+                                        <li class="equipment_item_model">1,5 МТ Base</li>
+                                        <li class="equipment_item_old_price">1 129 900 руб.</li>
+                                        <li class="equipment_item_new_price">1 124 900 руб</li>
+                                        <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+                                        <li class="equipment_item_credit_btn">Рассчитать кредит</li>
+                                    </ul> 
+                                </span>
+                            </button>
+                            <div class="accordion__content" aria-hidden="true">
+                                <p class="save_title">В дополнение к комплектации 1,5 CVT Comfort:</p>
+                                <h3 class="save_title">Безопасность</h3>
+                                <ul class="save">
+                                    <li class="save_item">Сталь BENTELER</li>
+                                    <li class="save_item">Оцинкованный кузов</li>
+                                    <li class="save_item">Гарантия 5 лет</li>
+                                    <li class="save_item">Эра Глонасс</li>
+                                    <li class="save_item">Иммобилайзер - электронное противоугонное устройство</li>
+                                    <li class="save_item">Задние датчики парковки</li>
+                                    <li class="save_item">Система мониторинга давления и температуры в шинах (TMPS)</li>
+                                </ul>
+                                <h3 class="design_title">Дизайн</h3>
+                                <ul class="design">
+                                    <li class="design_item">16-дюймовые алюминиевые литые диски</li>
+                                    <li class="design_item">Рейлинги на крыше</li>
+                                    <li class="design_item">Окраска металлик (на выбор)</li>
+                                    <li class="design_item">Окраска зеркал и ручек в цвет кузова</li>
+                                    <li class="design_item">Расширители колесных арок</li>
+                                    <li class="design_item">Скрытая выхлопная труба</li>
+                                </ul>
+                                <h3 class="comfort_title">Комфорт</h3>
+                                <ul class="comfort">
+                                    <li class="comfort_item">Обогрев передних сидений</li>
+                                    <li class="comfort_item">Тканевая отделка сидений</li>
+                                    <li class="comfort_item">Водительское сиденье с мех. регулировкой в 6 напр. (продольная, по высоте, наклону спинки)</li>
+                                    <li class="comfort_item">Пассажирское сиденье с механической регулировкой в 4-х направлениях</li>
+                                    <li class="comfort_item">Складная спинка сидения второго ряда в соотношении 1/3-2/3</li>
+                                    <li class="comfort_item">3 задних подголовника, регулируемые по высоте</li>
+                                    <li class="comfort_item">Электрический кондиционер</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="slider-container_four">
+            <div class="line_title_four">
+                <h2 class="slider_title_four">акции</h2>
+            </div>
+                <div class="slider-buttons">
+                    <button class="swiper-button-prev_four"></button>
+                    <button class="swiper-button-next_four"></button>
+                </div>
+                <div class="swiper-container_four">
+                    <div class="swiper-wrapper_four">
+                        <div class="swiper-slide_four card_four"><img src="../images/Rectangle 69.png" alt="" class="img_slider_one"></div>
+                        <div class="swiper-slide_four card_four"><img src="../images/Rectangle 69.png" alt="" class="img_slider_one"></div>
+                        <div class="swiper-slide_four card_four"><img src="../images/Rectangle 69.png" alt="" class="img_slider_one"></div>
+                        <div class="swiper-slide_four card_four"><img src="../images/Rectangle 69.png" alt="" class="img_slider_one"></div>
+                    </div>
+                    <div class="swiper-pagination_one"></div>
+                </div>
+        </div>
+        <section class="news">
+            <h2 class="news_title">Новости</h2>
+                <ul class="news_container">
+                    <li class="news_card">
+                        <img src="../images/car.png" class="news_img" alt="news_img">
+                        <p class="news_sub-title">
+                            Chery и iFlytek углубили всестороннее стратегическое сотрудничество
+                        </p>
+                        <p class="news_text">
+                            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное 
+                            соглашение об углублении 
+                            стратегического взаимодействия в области разработки решений систем искусственного интеллекта (ИИ) 
+                            для серийных автомобилей, 
+                            совместной работе над беспилотными автомобилями и доведением их автономности до четвертого уровня.
+                        </p>
+                        <a href="#">Читать больше</a>
+                    </li>
+                    <li class="news_card">
+                        <img src="../images/car.png" class="news_img" alt="news_img">
+                        <p class="news_sub-title">
+                            Chery и iFlytek углубили всестороннее стратегическое сотрудничество
+                        </p>
+                        <p class="news_text">
+                            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное 
+                            соглашение об углублении 
+                            стратегического взаимодействия в области разработки решений систем искусственного интеллекта (ИИ) 
+                            для серийных автомобилей, 
+                            совместной работе над беспилотными автомобилями и доведением их автономности до четвертого уровня.
+                        </p>
+                        <a href="#">Читать больше</a>
+                    </li>
+                    <li class="news_card">
+                        <img src="../images/car.png" class="news_img" alt="news_img">
+                        <p class="news_sub-title">
+                            Chery и iFlytek углубили всестороннее стратегическое сотрудничество
+                        </p>
+                        <p class="news_text">
+                            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное 
+                            соглашение об углублении 
+                            стратегического взаимодействия в области разработки решений систем искусственного интеллекта (ИИ) 
+                            для серийных автомобилей, 
+                            совместной работе над беспилотными автомобилями и доведением их автономности до четвертого уровня.
+                        </p>
+                        <a href="#">Читать больше</a>
+                    </li>
+                </ul>
+        </section>
+        <section class="feedback">
+            <h2 class="feedback_title">Отзывы</h2>
+            <ul class="feedback_container">
+                <li class="feedback_card">
+                    <img src="../images/Rectangle 66.png" class="news_img" alt="">
+                    <div class="feedback_head">
+                        <img src="../images/Ellipse 55.png" alt="feedback_img">
+                        <p class="feedback_sub-title">
+                            Роман Лесной
+                        </p>
+                    </div>
+                    <p class="feedback_text">
+                        24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное соглашение 
+                        об углублении стратегического взаимодействия в области разработки решений систем искусственного интеллекта 
+                        (ИИ) для серийных автомобилей, 
+                        совместной работе над беспилотными автомобилями и доведением их автономности до четвертого уровня.
+                    </p>
+                </li>
+                <li class="feedback_card">
+                    <img src="../images/Rectangle 66.png" class="news_img" alt="">
+                    <div class="feedback_head">
+                        <img src="../images/Ellipse 55.png" alt="feedback_img">
+                        <p class="feedback_sub-title">
+                            Роман Лесной
+                        </p>
+                    </div>
+                    <p class="feedback_text">
+                        24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное соглашение 
+                        об углублении стратегического взаимодействия в области разработки решений систем искусственного интеллекта 
+                        (ИИ) для серийных автомобилей, 
+                        совместной работе над беспилотными автомобилями и доведением их автономности до четвертого уровня.
+                    </p>
+                </li>
+                <li class="feedback_card">
+                    <img src="../images/Rectangle 66.png" class="news_img" alt="">
+                    <div class="feedback_head">
+                        <img src="../images/Ellipse 55.png" alt="feedback_img">
+                        <p class="feedback_sub-title">
+                            Роман Лесной
+                        </p>
+                    </div>
+                    <p class="feedback_text">
+                        24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное соглашение 
+                        об углублении стратегического взаимодействия в области разработки решений систем искусственного интеллекта 
+                        (ИИ) для серийных автомобилей, 
+                        совместной работе над беспилотными автомобилями и доведением их автономности до четвертого уровня.
+                    </p>
+                </li>     
+            </ul>
+        </section>
+        <div class="popup_overlay"></div>
+        <form class="popup" action="https://echo.htmlacademy.ru">
+            <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
+            <h2 class="popup_drive">Записаться на тест драйв</h2>
+            <div class="popup_cont">
+                <div class="field_name">
+                    <label for="drive__name" class="label__popup">Имя</label>
+                    <input type="text" id="drive__name" class="input__popup" placeholder="Ваше имя">
+                </div>
+                <div class="field__wrapper">
+                    <div class="field_phone">
+                        <label for="drive__phone" class="label__popup">Телефон</label>
+                        <input type="text" id="drive__phone" class="input__popup" placeholder="Ваш телефон">
+                    </div>
+                </div>
+                <div class="field__wrapper">
+                    <div class="field_calendar">
+                        <label for="drive__calendar" class="label__popup">Выберите день</label>
+                        <input type="text" id="drive__phone" class="input__popup" placeholder="Нажмите">
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox_popup">
+                <input id="check-drive" type="radio" class="checkbox__input " checked value="drive">
+                <label for="check-drive" class="checkbox__drive">Согласие на обработку ПД</label>
+            </div>
+            <button class="btn popup__btn" type="submit" disabled>Отправить</button>
+        </form>
+    </main>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="../main/script.js"></script>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2368.866453368904!2d49.411252315815794!3d53.57799998002826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4167d7c825fa0d55%3A0xe7119eab7216886e!2z0JPQmiAi0JDRgdCQ0LLRgtC-Ig!5e0!3m2!1sru!2sru!4v1624537743551!5m2!1sru!2sru" width="100%" height="492" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </body>
+</html>

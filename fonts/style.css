@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Tactic Sans';
+    src: local('Tactic Sans Bold'), local('Tactic-Sans-Bold'),
+        url('TacticSans-Bld.woff2') format('woff2'),
+        url('TacticSans-Bld.woff') format('woff'),
+        url('TacticSans-Bld.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
