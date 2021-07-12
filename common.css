@@ -1,12 +1,9 @@
 @font-face {
-    font-family: 'Tactic Sans';
-    src: local('Tactic Sans Bold'), local('Tactic-Sans-Bold'),
-        url('../fonts/TacticSans-Bld.woff2') format('woff2'),
-        url('../fonts/TacticSans-Bld.woff') format('woff'),
-        url('../fonts/TacticSans-Bld.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
+    font-family: 'TacticSans-Reg';
+    src: local('TacticSans-Reg'),    
+        url(../fonts/TacticSans-Reg.otf);
+    }
+  
 
 *{
     margin: 0;
@@ -49,4 +46,10 @@ ul {
             clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.container_site {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 110px;
 }
