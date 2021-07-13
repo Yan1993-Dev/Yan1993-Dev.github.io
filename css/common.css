@@ -1,8 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
 @font-face {
     font-family: 'TacticSans-Reg';
     src: local('TacticSans-Reg'),    
-        url(../static/fonts/TacticSans-Reg.otf);
+        url(../fonts/TacticSans-Reg.otf);
     }
   
 
@@ -51,7 +57,17 @@ ul {
 }
 
 .container_site {
+    max-width: 1400px;
     margin: 0 auto;
-    max-width: 1180px;
-    padding: 0 110px;
+    padding: 0 195px;
+}
+
+
+
+@media (min-width:344px) and (max-width: 1023px) {
+    .container_site {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
 }
