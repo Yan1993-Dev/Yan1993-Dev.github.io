@@ -988,7 +988,7 @@
  /* заголовок попапа */
 .popup_request {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     margin-left: 255px;
 }
 
@@ -997,7 +997,7 @@
     width: 19px;
     height: 19px;
     background-color: transparent;
-    background-image: url(../static/icons/X.svg);
+    background-image: url(/static/icons/X.svg);
     background-position: center;
     background-repeat: no-repeat;
     border: none;
