@@ -8,7 +8,7 @@
 @font-face {
     font-family: 'TacticSans-Reg';
     src: local('TacticSans-Reg'),    
-        url(../fonts/TacticSans-Reg.otf);
+        url(../static/fonts/TacticSans-Reg.otf);
     }
   
 
