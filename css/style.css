@@ -100,7 +100,7 @@
 
 .nav {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     font-style: normal;
     font-weight: normal;
     display: -webkit-box;
@@ -121,7 +121,7 @@
 
 .nav_item-link {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     font-size: 20px;
     font-style: bold;
     font-weight: 400;
@@ -135,7 +135,7 @@
 
 .main_title {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     font-size: 58px;
     font-style: normal;
     font-weight: 600;
@@ -148,7 +148,7 @@
 
 .sub_text {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     font-size: 26px;
     font-style: normal;
     font-weight: 600;
@@ -159,7 +159,7 @@
 
 .sub_text_wrapper {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     font-style: normal;
     margin-top: 15px;
 }
@@ -177,7 +177,7 @@
 
 .title_item {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
@@ -216,7 +216,7 @@
 
 .swiper-button-prev {
     position: absolute;
-    background-image: url(../static/icons/arrowL.svg) 0 0 no-repeat;
+    background-image: url(/static/icons/arrowL.svg) 0 0 no-repeat;
     margin-right: 10px; 
     background-color: none;
     border: none;
@@ -230,7 +230,7 @@
 
 .swiper-button-next {
     position: absolute;
-    background-image: url(../static/icons/arrowR.svg)  0 0 no-repeat;
+    background-image: url(/static/icons/arrowR.svg)  0 0 no-repeat;
 	margin-left: 200px;
     background-color: none;
     width: 20px;
@@ -301,7 +301,7 @@
 
 .slider_title_one {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     padding-bottom: 100px;
     margin-left: 680px;
@@ -309,7 +309,7 @@
 
 .slider_title_two {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 60px;
@@ -329,7 +329,7 @@
 
 .slider_title_three {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 60px;
@@ -368,7 +368,7 @@
 
 .slider_title_sale {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 63px;
@@ -402,7 +402,7 @@
 
 .slider_title_news {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
 }
@@ -456,7 +456,7 @@
 
 .slider_title_feedback {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 60px;
@@ -474,7 +474,7 @@
 
 .feedback_sub-title {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     font-style: bold;
     font-weight: bold;
     font-size: 18px;
@@ -507,7 +507,7 @@
 
 .sub_title {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -624,7 +624,7 @@
 
 .equipment_to_title {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -780,7 +780,7 @@
 
 .save_title {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     margin-left: 288px;
     padding: 17px;
 }
@@ -792,7 +792,7 @@
 
 .design_title {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     margin-left: 288px;
     padding: 17px;
 }
@@ -804,7 +804,7 @@
 
 .comfort_title {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     margin-left: 288px;
     padding: 17px;
 }
@@ -874,7 +874,7 @@
 
 .popup_drive {
     font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
+    src: url(/static/fonts/TacticSans-Reg.otf);
     margin-left: 200px;
     padding-top: 30px;
     margin-bottom: 70px;
@@ -925,7 +925,7 @@
     width: 19px;
     height: 19px;
     background-color: transparent;
-    background-image: url(../static/icons/X.svg);
+    background-image: url(/static/icons/X.svg);
     background-position: center;
     background-repeat: no-repeat;
     border: none;
