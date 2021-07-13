@@ -1204,13 +1204,12 @@
           padding-right: 20px; 
         }
       
-
     .header_btn_wrapper {
         margin-left: 38px;
     }
 
     .adress {
-        display: none;
+        display: block;
     }
     
     .phone_wrapper {
