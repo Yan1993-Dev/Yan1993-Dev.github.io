@@ -326,16 +326,20 @@
     text-align: center;
 }
 
+.swiper-pagination-bullet {
+    border: 1px solid #202020;
+    box-sizing: border-box;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    background: #FFFFFF;
+}
+
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
     margin-top: 40px;
     width: 15.85px;
     height: 15.85px;
-    border: 1px solid #202020;
-    box-sizing: border-box;
-    transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
-.swiper-pagination-bullet .swiper-pagination-bullet-active {
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
     background: #202020;
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
@@ -486,7 +490,6 @@
     left: 1px;
 }
 
-
 /* пятый слайдер */
 
 .line_title_sale {
@@ -621,6 +624,19 @@
     margin-top: 31px;
     margin-bottom: 100px;
 }
+
+
+/* общие стили для слайдеров */
+
+.swiper-pagination_one  {
+    margin-top: 40px;
+}
+
+.swiper-pagination-bullet .swiper-pagination-bullet-active {
+    background-color: #202020;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
 
 /* слайдеры закончились */
 
@@ -1184,7 +1200,20 @@
     line-height: 19px;
 }
 
+@media (min-width:1023px) and (max-width: 1440px) {
+    .container_site {
 
+    }
+    .line_title_two::before {
+        width: 470px;
+    }
+    .line_title_sale {
+        width: 470px;
+    }
+    .line_title_feeaback {
+        width: 470px;
+    }
+}
 
 
 @media (min-width:344px) and (max-width: 1023px) {
