@@ -883,31 +883,31 @@
 .save_title {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    margin-left: 288px;
+    margin-left: 17px;
     padding: 17px;
 }
 
 .save {
-    margin-left: 288px;
+    margin-left: 17px;
     padding: 17px;
 }
 
 .design_title {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    margin-left: 288px;
+    margin-left: 17px;
     padding: 17px;
 }
 
 .design {
-    margin-left: 288px;
+    margin-left: 17px;
     padding: 17px;
 }
 
 .comfort_title {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    margin-left: 288px;
+    margin-left: 17px;
     padding: 17px;
 }
 
@@ -916,7 +916,7 @@
 }
 
 .comfort_item{
-    margin-left: 288px;
+    margin-left: 17px;
 }
 
 .equipment_item_adapt {
