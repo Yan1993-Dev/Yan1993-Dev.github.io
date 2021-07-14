@@ -14,7 +14,7 @@ slider_app.forEach((el) => {
             1024: {
                 slidesPerView: 3,
             },
-            375: {
+            346: {
                 slidesPerView: 1,
             }
         },
