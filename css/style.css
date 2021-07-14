@@ -51,7 +51,7 @@
 }
     
 .wrapper__checkbox:checked ~ .wrapper__menu {
-    right: -30px;
+    right: -20px;
 }
   
   .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
@@ -453,9 +453,9 @@
 .line_title_two::before {
     content: '';
     position: absolute;
-    width: 671px;
+    width: 650px;
     height: 3px;
-    left: 840px;
+    left: 870px;
     background-color: #3482C6;
     margin-top: 13px;
 }
@@ -493,9 +493,9 @@
 .line_title_sale {
     content: '';
     position: absolute;
-    width: 690px;
+    width: 670px;
     height: 3px;
-    left: 822px;
+    left: 860px;
     background-color: #3482C6;
     margin-top: 110px;
 }
@@ -596,9 +596,9 @@
 .line_title_feeaback {
     content: '';
     position: absolute;
-    width: 690px;
+    width: 670px;
     height: 3px;
-    left: 825px;
+    left: 850px;
     background-color: #3482C6;
     margin-top: 13px;
 }
