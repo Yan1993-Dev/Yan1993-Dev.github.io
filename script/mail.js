@@ -30,8 +30,8 @@ im.mask(selector);
 let validateForms = function(selector, rules, successModal, yaGoal) {
     new window.JustValidate(selector, {
         rules: rules,
-        submitHandler: function(form) {
-            let formData = new FormData(form);
+        submitHandler: function(popupIn) {
+            let formData = new FormData(popupIn);
 
             let xhr = new XMLHttpRequest();
 
