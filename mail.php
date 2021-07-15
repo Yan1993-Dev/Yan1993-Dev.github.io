@@ -6,6 +6,8 @@ foreach ( $_POST["admin_email"] as $key => $value ) {
 	array_push($admin_email, $value);
 }
 
+$mail->setLanguage("ru");
+
 $admin_email = "taur.game@gmail.com";
 
 $form_subject = trim($_POST["form_subject"]);
