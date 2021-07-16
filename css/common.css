@@ -1,9 +1,8 @@
 @font-face {
     font-family: 'TacticSans-Reg';
-    src: local('TacticSans-Reg'),    
+    src: local('TacticSans-Reg'),
         url(../static/fonts/TacticSans-Reg.otf);
     }
-  
 
 *{
     margin: 0;
@@ -54,8 +53,6 @@ ul {
     margin: 0 auto;
     padding: 0 195px;
 }
-
-
 
 @media (min-width:344px) and (max-width: 1023px) {
     .container_site {
