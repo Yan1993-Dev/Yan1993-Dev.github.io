@@ -46,7 +46,7 @@ $mail->setFrom('adm@' . $_SERVER['HTTP_HOST'], 'Your best site');
  
 // Кому
 foreach ( $admin_email as $key => $value ) {
-	$mail->addAddress($value);
+	$mail->addAddress($value); 
 }
 // Тема письма
 $mail->Subject = $form_subject;

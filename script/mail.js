@@ -1,3 +1,5 @@
+// "use strict"
+
 // подсказка для телефона, какой формат вводить
 let selector = document.querySelectorAll('input[type="tel"]');
 let im = new Inputmask('+7 (999) 999-99-99');
@@ -28,8 +30,8 @@ im.mask(selector);
 let validateForms = function(selector, rules, successModal, yaGoal) {
     new window.JustValidate(selector, {
         rules: rules,
-        submitHandler: function(popupIn) {
-            let formData = new FormData(popupIn);
+        submitHandler: function(form) {
+            let formData = new FormData(form);
 
             let xhr = new XMLHttpRequest();
 
@@ -51,19 +53,20 @@ let validateForms = function(selector, rules, successModal, yaGoal) {
 
 validateForms('.popup', {tel:{required:true}, personal:{required:true}});
 
-// validateForms('.popup', {tel: {tel:true}}, '.thanks-popup', 'send goal');
 
 // document.addEventListener('DOMContentLoaded', function () {
-//     const form = document.getElementById('popup');
+//     const form = document.getElementById('popup__form');
 //     form.addEventListener('submit', formSend);
 
 //     async function formSend(e) {
 //         e.preventDefault();
 
-//         let error = formValidate(popup);
+//         let error = formValidate(form);
 //     }
 
-//     function formValidate(popup) {
+
+
+//     function formValidate(form) {
 //         let error = 0;
 //         let formReq = document.querySelectorAll('._req');
 
@@ -72,6 +75,11 @@ validateForms('.popup', {tel:{required:true}, personal:{required:true}});
 //             formRemoveError(input);
 
 //             if(input.classList.contains('_telephone'));
+//                 if (telephoneTest(input)) {
+//                     formAddError(input);
+//                     error++;
+//                 }
+            
             
 //         }
 //     }
@@ -84,3 +92,4 @@ validateForms('.popup', {tel:{required:true}, personal:{required:true}});
 //         input.classList.remove('_error');
 //     }
 // });
+
