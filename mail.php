@@ -6,10 +6,6 @@ foreach ( $_POST["admin_email"] as $key => $value ) {
 	array_push($admin_email, $value);
 }
 
-$mail->setLanguage("ru");
-
-$admin_email = "taur.game@gmail.com";
-
 $form_subject = trim($_POST["form_subject"]);
 
 $mail = new PHPMailer;
@@ -46,7 +42,7 @@ $mail->setFrom('adm@' . $_SERVER['HTTP_HOST'], 'Your best site');
  
 // Кому
 foreach ( $admin_email as $key => $value ) {
-	$mail->addAddress($value); 
+	$mail->addAddress($value);
 }
 // Тема письма
 $mail->Subject = $form_subject;
