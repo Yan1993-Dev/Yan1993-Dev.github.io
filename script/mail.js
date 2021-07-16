@@ -8,8 +8,6 @@ im.mask(selector);
 (function() {
     const popupIn = document.forms.popupIn;
 
-    console.log(popupIn);
-
     popupIn.addEventListener('submit', function(e) {
         e.preventDefault();
         
