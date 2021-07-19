@@ -1,5 +1,3 @@
-// "use strict"
-
 // подсказка для телефона, какой формат вводить
 let selector = document.querySelectorAll('input[type="tel"]');
 let im = new Inputmask('+7 (999) 999-99-99');
@@ -50,46 +48,21 @@ let validateForms = function(selector, rules, successModal, yaGoal) {
         }
     });
 }
-
+// валидация формы с кнопки записаться на тест драйв
 validateForms('.popup', {tel:{required:true}, personal:{required:true}});
 
 
-// document.addEventListener('DOMContentLoaded', function () {
-//     const form = document.getElementById('popup__form');
-//     form.addEventListener('submit', formSend);
-
-//     async function formSend(e) {
-//         e.preventDefault();
-
-//         let error = formValidate(form);
-//     }
+// валидация формы с поля рассчета трейд-ина
+validateForms('.traid-in_calc', {tel__traid:{required:true}, man__traid:{required:true}, model__traid:{required:true}, name__traid:{required:true}, traid__personal:{required:true}});
 
 
+// валидация формы с кнопки предложение после аккордеона
+validateForms('.estimate', {telephone:{required:true}, name__est:{required:true}, estimate__personal:{required:true}});
 
-//     function formValidate(form) {
-//         let error = 0;
-//         let formReq = document.querySelectorAll('._req');
 
-//         for (let index = 0; index < formReq.length; index++) {
-//             const input = formReq[index];
-//             formRemoveError(input);
+// валидация формы с кнопки заявки на кредит
+validateForms('.credit_calc_wp', {credit__name:{required:true}, tel__credit:{required:true}, credit__personal:{required:true}});
 
-//             if(input.classList.contains('_telephone'));
-//                 if (telephoneTest(input)) {
-//                     formAddError(input);
-//                     error++;
-//                 }
-            
-            
-//         }
-//     }
-//     function formAddError(input) {
-//         input.parentElement.classList.add('_error');
-//         input.classList.add('._error');
-//     }
-//     function formRemoveError(input) {
-//         input.parentElement.classList.remove('_error');
-//         input.classList.remove('_error');
-//     }
-// });
 
+// валидация формы с кнопки заявки на кредита адаптива
+validateForms('.credit_calc_adaptiv', {credit__name__adapt:{required:true}, credit__tel__adapt:{required:true}, creditAd__personal:{required:true}});

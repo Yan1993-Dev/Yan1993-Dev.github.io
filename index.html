@@ -127,27 +127,28 @@
                 <h2 class="sub_title" id="calculator">
                     Калькулятор расчета traid-in
                 </h2>
-                <form class="traid-in_calc" action="" method="post">
+                <form class="traid-in_calc" action="mail.php" enctype="multipart/form-data" method="POST">
+                    <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
                     <div class="field">
                         <label for="calc__name" class="label__traid-in">Имя</label>
-                        <input type="text" id="calc__name" class="input__traid-in" placeholder="Ваше имя">
+                        <input type="text" id="calc__name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
                     </div>
                     <div class="field__wrapper">
                         <div class="field">
                             <label for="calc__phone" class="label__traid-in">Телефон</label>
-                            <input type="tel" id="calc__phone" class="input__traid-in" placeholder="Ваш телефон">
+                            <input type="tel" id="calc__phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                         </div>
                         <div class="field">
                             <label for="input__manufacturer" class="label__traid-in">Марка</label>
-                            <input type="email" id="input__manufacturer" class="input__traid-in" placeholder="Марка автомобиля">
+                            <input type="email" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
                         </div>
                         <div class="field">
                             <label for="input__model" class="label__traid-in">Модель</label>
-                            <input type="email" id="input__model" class="input__traid-in" placeholder="Модель автомобиля">
+                            <input type="email" id="input__model" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
                         </div>
                     </div>
                     <div class="checkbox">
-                        <input id="calc__personal__inf" type="radio" class="checkbox__input " checked value="Receipt">
+                        <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
                         <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
                     </div>
                     <button class="btn credit__btn" type="submit">Отправить</button>
@@ -157,15 +158,16 @@
                 <h2 class="sub_title" id="">
                     Калькулятор расчета кредита
                 </h2>
-                <form class="credit_calc_wp" action="" method="post">
+                <form class="credit_calc_wp" action="mail.php" enctype="multipart/form-data" method="POST">
+                    <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
                     <div class="field">
                         <label for="credit__name" class="label__traid-in">Имя</label>
-                        <input type="text" id="credit__name" class="input__traid-in" placeholder="Ваше имя">
+                        <input type="text" id="credit__name" class="input__traid-in" data-validate-field="credit__name" placeholder="Ваше имя">
                     </div>
                     <div class="field__wrapper">
                         <div class="field">
                             <label for="credit__form__phone" class="label__traid-in">Телефон</label>
-                            <input type="tel" id="credit__form__phone" class="input__traid-in" placeholder="Ваш телефон">
+                            <input type="tel" id="credit__form__phone" class="input__traid-in" data-validate-field="tel__credit" placeholder="Ваш телефон">
                         </div>
                         <div class="field">
                             <label for="input__initial" class="label__traid-in">Первый взнос</label>
@@ -190,7 +192,7 @@
                         </div>
                     </div>
                     <div class="checkbox">
-                        <input id="credit__personal__inf" type="radio" class="checkbox__input " checked value="Receipt">
+                        <input id="credit__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="credit__personal">
                         <label for="credit__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
                     </div>
                     <button class="btn traid__btn" type="submit" >Отправить</button>
@@ -682,15 +684,16 @@
             <h2 class="sub_title">
                 Калькулятор расчета кредита
             </h2>
-            <form class="credit_calc_wp" action="" method="post">
+            <form class="credit_calc_adaptiv" action="mail.php" method="post">
+                <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
                 <div class="field">
                     <label for="input__name" class="label__traid-in">Имя</label>
-                    <input type="text" id="input__name" class="input__traid-in" placeholder="Ваше имя">
+                    <input type="text" id="input__name" class="input__traid-in" data-validate-field="credit__name__adapt" placeholder="Ваше имя">
                 </div>
                 <div class="field__wrapper">
                     <div class="field">
                         <label for="credit__phone" class="label__traid-in">Телефон</label>
-                        <input type="tel" id="credit__phone" class="input__traid-in" placeholder="Ваш телефон">
+                        <input type="tel" id="credit__phone" class="input__traid-in" data-validate-field="credit__tel__adapt" placeholder="Ваш телефон">
                     </div>
                     <div class="field">
                         <label for="initial__payment" class="label__traid-in">Первый взнос</label>
@@ -715,7 +718,7 @@
                     </div>
                 </div>
                 <div class="checkbox">
-                    <input id="check-receipt" type="radio" class="checkbox__input " checked value="Receipt">
+                    <input id="check-receipt" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="creditAd__personal">
                     <label for="check-receipt" class="checkbox__label">Согласие на обработку ПД</label>
                 </div>
                 <button class="btn traid__btn" type="submit" >Отправить</button>
@@ -866,7 +869,7 @@
                 <div class="field__wrapper">
                     <div class="field_phone">
                         <label for="drive__phone" class="label__popup">Телефон</label>
-                        <input type="tel" id="drive__phone" data-validate-field="tel" class="input__popup _req _telephone" placeholder="Ваш телефон">
+                        <input type="tel" id="drive__phone" data-validate-field="tel" class="input__popup" placeholder="Ваш телефон">
                     </div>
                 </div>
                 <div class="field__wrapper">
@@ -884,18 +887,18 @@
         </form>
         <!-- заявка -->
         <section class="estimate__contact estimate_open">
-            <form class="estimate" action="">
+            <form action="mail.php"  class="estimate" enctype="multipart/form-data" method="POST">
                 <button class="popup_request__btn" type="button" aria-label="Close button"></button>
                 <h2 class="popup_request">Оставить заявку</h2>
                 <div class="popup_cont">
                     <div class="field_name">
                         <label for="estimate__name" class="label__popup">Имя</label>
-                        <input type="text" id="estimate__name" class="input__popup" placeholder="Ваше имя">
+                        <input type="text" id="estimate__name" class="input__popup" data-validate-field="name__est" placeholder="Ваше имя">
                     </div>
                     <div class="field__wrapper">
                         <div class="field_phone">
                             <label for="estimate__phone" class="label__popup">Телефон</label>
-                            <input type="tel" id="estimate__phone" class="input__popup" placeholder="">
+                            <input type="tel" id="estimate__phone" class="input__popup" data-validate-field="telephone" placeholder="">
                         </div>
                     </div>
                     <div class="field_est">
@@ -904,7 +907,7 @@
                     </div>
                 </div>
                 <div class="checkbox_popup">
-                    <input id="check-drive" type="radio" class="checkbox__input " checked value="drive">
+                    <input id="check-drive" type="checkbox" class="checkbox__input " checked value="drive" data-validate-field="estimate__personal">
                     <label for="check-drive" class="checkbox__drive">Согласие на обработку ПД</label>
                 </div>
                 <button class="btn popup_req__js" type="submit">Отправить</button>
@@ -916,6 +919,9 @@
         <script src="./script/just-validate.min.js"></script>
         <script src="./mail.php"></script>
         <script src="./script/inputmask.min.js"></script>
+        <script src="./script/mail__traid.js"></script>
+        <script src="./script/estimate__mail.js"></script>
+        <script src="./script/credit.js"></script>
         <script src="./script/mail.js"></script>
         <script src="./script/title_slider.js"></script>
         <script src="./script/main_slider.js"></script>
