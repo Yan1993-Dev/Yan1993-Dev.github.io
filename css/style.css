@@ -1212,7 +1212,7 @@
 
 
 
-@media (min-width:1023px) and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
     .container_site {
         max-width: 1200px;
         margin: 0 auto;
@@ -1244,9 +1244,9 @@
     }
 }
 
-@media (min-width:788px) and (max-width: 950px) {
+@media screen and (max-width: 1024px) {
     .container_site {
-        max-width: 810px;
+        max-width: 890px;
         margin: 0 auto;
         padding: 0 10px;
     }
@@ -1254,9 +1254,114 @@
     .wrapper__menu {
         margin-right: 785px;
     }
+
+    .wrapper__button {
+        margin-left: 30px;
+    }
+
+    .adress {
+        padding-left: 20px;
+    }
+    .wrapper__checkbox:checked ~ .wrapper__menu {
+        right: -200px;
+    }
+    .nav {
+        padding-left: 45px;
+    }
+
+    .nav_item-link {
+        margin-right: 30px;
+    }
+    .main_title {
+        font-size: 55px;
+    }
+    .sub_text {
+        font-size: 15px;
+    }
+    .slider-container {
+        margin-left: 450px;
+    }
+
+    .popup {
+        margin-left: 160px;
+    }
+
+    .form_traid-in {
+        width: 460px;
+    }
+    
+    .credit_calc {
+        width: 455px;
+    }
+    .traid__btn {
+        margin-left: 88px;
+    }
+    
+    .checkbox {
+        padding-left: 195px;
+    }
+
+    .credit__btn  {
+        margin-left: 90px;
+    }
+
+    .slider_title_one {
+        margin-left: 337px;
+    }
+
+    .line_title_three::before {
+        width: 395px;
+    }
+    .line_title_two::before {
+        width: 423px;
+        left: 580px;
+    }
+
+    .line_title_threeF::before {
+        width: 361px;
+    }
+
+    .equipment_item_model {
+        font-size: 22px;
+    }
+    .equipment_item_old_price {
+        font-size: 16px;
+    }
+    .equipment_item_new_price {
+        font-size: 22px;
+    }
+
+    .estimate_btn__js {
+        margin-left: 335px;
+    }
+
+    .estimate {
+        margin-left: 145px;
+    }
+
+    .line_title_sale {
+        width: 440px;
+        left: 565px; 
+    }
+
+    .line_title_news {
+        width: 425px;
+    } 
+
+    .line_title_feeaback {
+        width: 435px;
+        left: 570px;
+    }
 }
 
-@media (min-width:344px) and (max-width: 745px) {
+@media screen and (max-width: 768px) {
+    .wrapper__menu {
+        right: -234px;
+    }
+}
+
+
+@media screen and (max-width: 522px) {
     .container_site {
         max-width: 1400px;
         margin: 0 auto;
