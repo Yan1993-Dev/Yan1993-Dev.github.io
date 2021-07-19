@@ -47,17 +47,3 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-.container_site {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 195px;
-}
-
-@media (min-width:344px) and (max-width: 1023px) {
-    .container_site {
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 0 15px;
-    }
-}
