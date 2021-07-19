@@ -86,6 +86,7 @@
     z-index: 3; 
     color: #FFFFFF;
     margin-left: 65px;
+    border-radius: 10px;
 }
   
   .wrapper__button-line {
@@ -127,6 +128,7 @@
     margin-right: 907px;
     margin-top: 26px;
     z-index: 2;
+    border-radius: 10px;
 }
   
   .wrapper__menu-link {
@@ -160,7 +162,7 @@
     width: 208px;
     height: 38px;
     border: 0;
-    
+    border-radius: 10px;
 }
 
 .btn:hover {
@@ -446,7 +448,7 @@
 .line_title_two::before {
     content: '';
     position: absolute;
-    width: 650px;
+    width: 640px;
     height: 3px;
     left: 870px;
     background-color: #3482C6;
@@ -486,7 +488,7 @@
 .line_title_sale {
     content: '';
     position: absolute;
-    width: 670px;
+    width: 650px;
     height: 3px;
     left: 860px;
     background-color: #3482C6;
@@ -589,7 +591,7 @@
 .line_title_feeaback {
     content: '';
     position: absolute;
-    width: 670px;
+    width: 650px;
     height: 3px;
     left: 850px;
     background-color: #3482C6;
@@ -889,6 +891,7 @@
     -webkit-box-shadow: 0px 0px 20px rgba(52, 130, 198, 0.4);
             box-shadow: 0px 0px 20px rgba(52, 130, 198, 0.4);
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .open .accordion__icon {
