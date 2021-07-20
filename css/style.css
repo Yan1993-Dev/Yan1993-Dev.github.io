@@ -3029,7 +3029,7 @@
 
     .nav_item-link {
         margin-right: 5px;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .main_title {
@@ -3273,6 +3273,11 @@
         margin-left: 5px;
         width: 288px;
         height: 500px;
+    }
+
+    .line_title_sale {
+        width: 112px;
+        left: 219px;
     }
 
     .popup_request {
