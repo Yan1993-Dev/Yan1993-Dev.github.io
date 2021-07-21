@@ -133,7 +133,7 @@
     -webkit-transition: right 0.4s;
     -o-transition: right 0.4s;
     transition: right 0.4s; 
-    margin-right: 907px;
+    margin-right: 956px;
     margin-top: 26px;
     z-index: 2;
     border-radius: 10px;
@@ -1409,7 +1409,7 @@
     }
 
     .wrapper__checkbox:checked ~ .wrapper__menu {
-        right: -154px;
+        right: -188px;
     }
 
     .adress {
