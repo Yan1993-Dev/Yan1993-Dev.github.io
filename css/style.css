@@ -453,15 +453,6 @@
 
 /* третий слайдер */
 
-.line_title_two::before {
-    content: '';
-    position: absolute;
-    width: 640px;
-    height: 3px;
-    left: 870px;
-    background-color: #3482C6;
-    margin-top: 13px;
-}
 
 .slider_title_three {
     font-family: 'TacticSans-Reg';
@@ -1226,7 +1217,18 @@
 }
 
 
-
+@media (min-width:1640px) and (max-width: 1930px) {
+    
+    .line_title_two::before {
+        content: '';
+        position: absolute;
+        width: 640px;
+        height: 3px;
+        left: 870px;
+        background-color: #3482C6;
+        margin-top: 13px;
+    }
+}
 
 
 @media (min-width:1240px) and (max-width: 1540px) {
