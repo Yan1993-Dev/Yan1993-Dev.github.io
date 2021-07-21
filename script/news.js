@@ -1,0 +1,11 @@
+const slider = document.querySelector('.swiper-container_news');   
+    let mySwiper = new Swiper('.swiper-container_news', {
+        loop: true,
+        slidesPerView:3,
+        spaceBetween:10,
+        autoplay: {
+            delay: 3000,
+        },
+        slideClass: 'swiper-slide_news',
+		wrapperClass: 'swiper-wrapper_news',
+    });
