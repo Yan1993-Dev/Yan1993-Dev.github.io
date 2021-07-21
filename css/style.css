@@ -401,7 +401,7 @@
 .slider-container_one {
     overflow: hidden;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .swiper-wrapper_one {
@@ -448,7 +448,17 @@
     src: url(../static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.slider_title_two::before {
+    content: '';
+    position: absolute;
+    width: 650px;
+    height: 3px;
+    left: 860px;
+    background-color: #3482C6;
+    margin-top: 10px;
 }
 
 /* третий слайдер */
@@ -459,7 +469,7 @@
     src: url(../static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .line_title_three::before {
@@ -484,14 +494,14 @@
 
 /* пятый слайдер */
 
-.line_title_sale {
+.slider_title_sale::before {
     content: '';
     position: absolute;
     width: 650px;
     height: 3px;
     left: 860px;
     background-color: #3482C6;
-    margin-top: 110px;
+    margin-top: 10px;
 }
 
 .slider_title_sale {
@@ -596,22 +606,22 @@
     margin-top: 100px;
 }
 
+.slider_title_feedback::before {
+    content: '';
+    position: absolute;
+    width: 660px;
+    height: 3px;
+    left: 850px;
+    background-color: #3482C6;
+    margin-top: 13px;
+}
+
 .slider_title_feedback {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 60px;
-}
-
-.line_title_feedback {
-    content: '';
-    position: absolute;
-    width: 650px;
-    height: 3px;
-    left: 850px;
-    background-color: #3482C6;
-    margin-top: 13px;
 }
 
 .feedback_sub-title {
@@ -1217,20 +1227,6 @@
 }
 
 
-@media (min-width:1640px) and (max-width: 1930px) {
-    
-    .line_title_two::before {
-        content: '';
-        position: absolute;
-        width: 640px;
-        height: 3px;
-        left: 870px;
-        background-color: #3482C6;
-        margin-top: 13px;
-    }
-}
-
-
 @media (min-width:1240px) and (max-width: 1540px) {
     .container_site {
         max-width: 1200px;
@@ -1239,7 +1235,7 @@
     }
 
     .wrapper__checkbox:checked ~ .wrapper__menu {
-        right: -84px;
+        right: -133px;
     }
 
     .line_title_three::before {
@@ -1249,10 +1245,23 @@
     .line_title_threeF::before {
         width: 570px;
     }
-    .line_title_two::before {
+
+    .slider_title_two::before {
         width: 620px;
-        left: 800px;
+        left: 795px;
     }
+
+    .slider_title_sale::before {
+        width: 645px;
+        left: 770px;
+    }
+
+    .slider_title_feedback::before {
+        width: 630px;
+        left: 780px;
+        margin-top: 11px;
+    }
+
     .line_title_news {
         width: 630px;
     }
@@ -1277,6 +1286,14 @@
 
     .equipment_item_comp {
         margin-right: 14px;
+    }
+
+    .estimate {
+        margin-left: 350px;
+    }
+
+    .popup {
+        margin-left: 350px;
     }
 }
 
@@ -1356,13 +1373,25 @@
     .line_title_three::before {
         width: 395px;
     }
-    .line_title_two::before {
-        width: 423px;
+
+    .slider_title_two::before {
+        width: 425px;
         left: 580px;
     }
 
     .line_title_threeF::before {
         width: 361px;
+    }
+
+    .slider_title_sale::before {
+        width: 440px;
+        left: 560px;
+    }
+
+    .slider_title_feedback::before {
+        width: 430px;
+        left: 570px;
+        margin-top: 12px;
     }
 
     .equipment_item_model {
@@ -1392,10 +1421,6 @@
         width: 425px;
     } 
 
-    .line_title_feedback {
-        width: 435px;
-        left: 570px;
-    }
 }
 
 @media (min-width:768px) and (max-width: 1023px) {
@@ -1525,13 +1550,28 @@
         margin-left: 270px;
     }
 
-    .line_title_two::before {
-        width: 295px;
-        left: 455px;
-    }
-
     .line_title_threeF::before {
         width: 235px;
+    }
+
+    .slider_title_two {
+        margin-top: 50px;
+    }
+    
+    .slider_title_two::before {
+        width: 285px;
+        left: 460px;
+    }
+
+    .slider_title_sale::before {
+        width: 315px;
+        left: 430px;
+    }
+
+
+    .slider_title_feedback::before {
+        width: 295px;
+        left: 450px;
     }
 
     .equipment_item_comp {
@@ -1591,18 +1631,8 @@
         margin-bottom: 50px;
     }
 
-    .line_title_sale {
-        width: 320px;
-        left: 431px;
-    }
-
     .line_title_news {
         width: 300px;
-    }
-
-    .line_title_feedback {
-        width: 305px;
-        left: 440px;
     }
 }
 
@@ -1836,7 +1866,7 @@
 
     .popup {
         position: fixed;
-        margin-left: 10px;
+        margin-left: 30px;
         width: 353px;
     }
 
@@ -1875,7 +1905,7 @@
     .open_popup_js {
         position: absolute;
         margin-top: 320px;
-        margin-left: 55px;
+        margin-left: 65px;
         border-radius: 10px;
     }
 
@@ -1942,12 +1972,6 @@
 
     .slider_wrapper_one {
         margin-top: 70px;
-    }
-
-    .line_title_two::before {
-        width: 100px;
-        left: 305px;
-        margin-top: 64px;
     }
 
     .line_title_three::before {
@@ -2145,7 +2169,7 @@
         width: 314px;
         height: 520px;
         top: 110px;
-        margin-left: 30px;
+        margin-left: 45px;
     }
 
     .news {
@@ -2167,7 +2191,26 @@
     }
 
     .slider-container_one {
-        margin-top: -5px;
+        margin-top: 20px;
+    }
+
+    .slider_title_two::before {
+        width: 105px;
+        left: 300px;
+    }
+
+    .slider_title_sale::before {
+        width: 140px;
+        left: 260px;
+    }
+
+    .slider_title_feedback::before {
+        width: 130px;
+        left: 270px;
+    }
+
+    .img_slider_one {
+        margin-top: 45px;
     }
 
     .popup_request__btn {
@@ -2583,12 +2626,6 @@
         margin-top: 70px;
     }
 
-    .line_title_two::before {
-        width: 80px;
-        left: 275px;
-        margin-top: 64px;
-    }
-
     .line_title_three::before {
         width: 80px;
     }
@@ -2606,6 +2643,13 @@
         margin-top: 50px;
         font-size: 26px;
         line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .slider_title_two::before {
+        width: 95px;
+        left: 260px;
+        margin-top: 14px;
     }
 
     .slider_title_three {
@@ -2862,6 +2906,12 @@
         margin-bottom: 30px;
     }
 
+    .slider_title_feedback::before {
+        width: 110px;
+        left: 240px;
+        margin-top: 10px;
+    }
+
     .news_title {
         font-size: 30px;
         line-height: 36px;
@@ -2903,6 +2953,18 @@
         max-width: 319px;
         margin: 0 auto;
         padding: 0 10px;
+    }
+
+    .header {
+        margin-bottom: 75px;
+    }
+
+    .main_title {
+        padding-bottom: 5px;
+    }
+
+    .second {
+        margin-bottom: -15px;
     }
 
     .menu__item {
@@ -3032,9 +3094,10 @@
         -o-transition: all .2s linear;
         transition: all .2s linear; 
     }
-        .wrapper__menu-link:hover {
-          padding-right: 20px; 
-        }
+
+    .wrapper__menu-link:hover {
+        padding-right: 20px; 
+    }
       
 
     .header_btn_wrapper {
@@ -3062,6 +3125,10 @@
     .nav_item-link {
         margin-right: 5px;
         font-size: 10px;
+    }
+
+    .slider-container_one {
+        margin-top: 20px;
     }
 
     .main_title {
@@ -3147,6 +3214,8 @@
 
     .form_traid-in {
         margin-left: 48px;
+        margin-top: 100px;
+        height: 560px;
     }
 
     .sub_title {
@@ -3169,6 +3238,16 @@
         padding-left: 25px;
     }
 
+    .slider_title_two {
+        margin-top: 25px;
+    }
+
+    .slider_title_two::before {
+        width: 75px;
+        height: 2px;
+        left: 223px;
+        margin-top: 8px;
+    }
 
     .credit__btn {
         width: 240px;
@@ -3209,13 +3288,11 @@
     }
     
     .equipment_item_adapt {
+        margin-top: 16px;
+        font-size: 12px;
         display: block;
     }
 
-    .equipment_item_price_adapt {
-        display: inline-block;
-        margin-top: 5px;
-    }
 
     .equipment_item_new_adapt {
         display: inline-block;
@@ -3232,15 +3309,21 @@
     }
 
     .equipment_item_credit_btn {
+        height: 32px;
+        width: 182px;
+        padding-top: 6px;
         border-radius: 10px;
         margin-top: 23px;
     }
 
     .equipment_item, .accordion__icon_adapt{
         position: absolute;
-        margin-top: 225px;
-        margin-left: 125px;
+        margin-top: 230px;
+        margin-left: 95px;
+    }
 
+    .equipment_item_credit_price {
+        font-size: 10px;
     }
 
     .save, .design, .comfort {
@@ -3259,6 +3342,10 @@
         padding-right: 290px;
     }
 
+    .equip {
+        margin-top: 20px;
+    }
+
     .equipment_title_two {
         display: block;
         margin-left: 15px;
@@ -3274,25 +3361,34 @@
     }
 
     .equipment_item_model {
-        font-size: 18px;
-        margin-right: 15px;
+        font-size: 16px;
+        margin-top: 6px;
+    }
+
+    
+    .equipment_item_price_adapt {
+        font-size: 12px;
+        display: inline-block;
+        margin-top: 5px;
     }
     
     .equipment_item_old_price{
         font-size: 16px;
-        margin-right: 15px;
     }
 
     .equipment_item_new_price {
-        font-size: 18px;
+        font-size: 12px;
         margin-right: 15px;
+        font-weight: 600;
     }
 
     .equipment_item_new_adapt {
+        font-size: 12px;
         margin-top: 9px;
     }
 
     .equipment_item_credit_price {
+        margin-left: 10px;
         margin-top: 20px;
         white-space: nowrap;
     }
@@ -3336,12 +3432,12 @@
 
     .slider_title_two {
         font-size: 20px;
-
     }
-    
-    .line_title_two::before {
-        width: 85px;
-        left: 215px;
+
+    .slider_title_sale::before {
+        width: 100px;
+        left: 200px;
+        margin-top: 11px;
     }
 
     .line_title_threeF::before {
@@ -3352,8 +3448,23 @@
         font-size: 20px;
     }
 
+    .news {
+        margin-top: 35px;
+    }
+
+    .feedback {
+        margin-top: 35px;
+    }
+
     .line_title_news {
         width: 78px;
+    }
+
+    .slider_title_feedback::before {
+        width: 85px;
+        height: 3px;
+        left: 215px;
+        margin-top: 11px;
     }
 
     .line_title_feedback {

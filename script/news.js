@@ -6,6 +6,15 @@ const slider = document.querySelector('.swiper-container_news');
         autoplay: {
             delay: 3000,
         },
+
+        breakpoints: {
+            1024: {
+                slidesPerView: 3,
+            },
+            319: {
+                slidesPerView: 1,
+            }
+    },
         slideClass: 'swiper-slide_news',
 		wrapperClass: 'swiper-wrapper_news',
     });
