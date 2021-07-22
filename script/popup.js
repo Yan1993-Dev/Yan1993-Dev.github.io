@@ -13,5 +13,4 @@ openPopup.addEventListener('click', function(){
 		popup.classList.remove('popup_open');
 		overlay.classList.remove('join')
 	})
-
 })

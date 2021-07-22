@@ -133,7 +133,7 @@
     -webkit-transition: right 0.4s;
     -o-transition: right 0.4s;
     transition: right 0.4s; 
-    margin-right: 1004px;
+    margin-right: 1043px;
     margin-top: 26px;
     z-index: 2;
     border-radius: 10px;
@@ -456,7 +456,7 @@
     position: absolute;
     width: 650px;
     height: 3px;
-    left: 860px;
+    margin-left: 70px;
     background-color: #3482C6;
     margin-top: 10px;
 }
@@ -494,16 +494,6 @@
 
 /* пятый слайдер */
 
-.slider_title_sale::before {
-    content: '';
-    position: absolute;
-    width: 650px;
-    height: 3px;
-    left: 860px;
-    background-color: #3482C6;
-    margin-top: 10px;
-}
-
 .slider_title_sale {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
@@ -513,22 +503,22 @@
     margin-top: 100px;
 }
 
+.slider_title_sale::before {
+    content: '';
+    position: absolute;
+    width: 750px;
+    height: 3px;
+    margin-left: 70px;
+    background-color: #3482C6;
+    margin-top: 10px;
+}
+
 .img_slider_one {
     margin-top: 60px;
 }
 
 .swiper-pagination_one {
     text-align: center;
-}
-
-.line_title_four::before {
-    content: '';
-    position: absolute;
-    width: 671px;
-    height: 3px;
-    left: 860px;
-    background-color: #3482C6;
-    margin-top: 15px;
 }
 
 /* слайдеры новостей и отзывов */
@@ -611,7 +601,7 @@
     position: absolute;
     width: 660px;
     height: 3px;
-    left: 850px;
+    margin-left: 70px;
     background-color: #3482C6;
     margin-top: 13px;
 }
@@ -799,7 +789,7 @@
     margin-left: 50px;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 29px;
 }
 
@@ -809,6 +799,11 @@
 
 .equipment_item_price {
     margin-right: 69px;
+}
+
+.save_title_additionally {
+    margin-top: 25px;
+    font-weight: bold;
 }
 
 .equipment_item_price_adapt {
@@ -936,14 +931,23 @@
 
 /* стили контента аккордеона */
 
-.save_title {
+.save_title_additionally {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     margin-left: 17px;
     padding: 17px;
 }
 
-.save {
+.save_title {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    margin-left: 17px;
+    margin-top: 25px;
+    padding: 17px;
+}
+
+.save, .design, .comfort {
+    line-height: 25px;
     margin-left: 17px;
     padding: 17px;
 }
@@ -971,10 +975,6 @@
     margin-left: 17px;
 }
 
-.comfort_item{
-    margin-left: 17px;
-}
-
 .equipment_item_adapt {
     display: none;
 }
@@ -995,7 +995,7 @@
     width: 716px;
     top: 100px;
     position: fixed;
-    margin-left: 420px;
+    align-items: center;
     border-radius: 10px;
     background-color: #F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
@@ -1137,7 +1137,7 @@
     Height: 672px;
     top: 50px;
     position: fixed;
-    margin-left: 420px;
+    margin-left: 560px;
     border-radius: 10px;
     background-color: #F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
@@ -1227,6 +1227,56 @@
 }
 
 
+/* окно об отправке формы, что всё успешно */
+
+.thanks {
+    display: block;
+    Width: 600px;
+    Height: 402px;
+    top: 150px;
+    position: fixed;
+    margin-left: 450px;
+    border-radius: 10px;
+    background-color:seagreen;
+    border: 1px solid rgba(52, 130, 198, 0.1);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.thanks_request__btn {
+    width: 19px;
+    height: 19px;
+    background-color: transparent;
+    background-image: url(../static/icons/X.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    margin-left: 550px;
+    padding-bottom: 27px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.thanks_title {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 50px;
+}
+
+.thanks_app {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
 @media (min-width:1240px) and (max-width: 1540px) {
     .container_site {
         max-width: 1200px;
@@ -1248,17 +1298,17 @@
 
     .slider_title_two::before {
         width: 620px;
-        left: 795px;
+        left: 815px;
     }
 
     .slider_title_sale::before {
         width: 645px;
-        left: 770px;
+        left: 790px;
     }
 
     .slider_title_feedback::before {
         width: 630px;
-        left: 780px;
+        left: 800px;
         margin-top: 11px;
     }
 
@@ -1376,7 +1426,7 @@
 
     .slider_title_two::before {
         width: 425px;
-        left: 580px;
+        left: 590px;
     }
 
     .line_title_threeF::before {
@@ -1385,12 +1435,12 @@
 
     .slider_title_sale::before {
         width: 440px;
-        left: 560px;
+        left: 575px;
     }
 
     .slider_title_feedback::before {
         width: 430px;
-        left: 570px;
+        left: 585px;
         margin-top: 12px;
     }
 
@@ -1420,6 +1470,10 @@
     .line_title_news {
         width: 425px;
     } 
+
+    .thanks {
+        margin-left: 240px;
+    }
 
 }
 
@@ -1559,13 +1613,13 @@
     }
     
     .slider_title_two::before {
-        width: 285px;
+        width: 300px;
         left: 460px;
     }
 
     .slider_title_sale::before {
         width: 315px;
-        left: 430px;
+        left: 445px;
     }
 
 
@@ -1614,6 +1668,22 @@
         padding-top: 6px;
     }
 
+    .save_title, .design_title, .comfort_title {
+        margin-left: -10px;
+        margin-top: 15px;
+    }
+
+    .save_title_additionally {
+        margin-left: 5px;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .save, .design, .comfort {
+        margin-left: -5px;
+        line-height: 25px;
+    }
+
     .estimate_btn__js {
         margin-left: 238px;
     }
@@ -1633,6 +1703,20 @@
 
     .line_title_news {
         width: 300px;
+    }
+
+    .thanks {
+        margin-left: 140px;
+        Width: 525px;
+        Height: 400px;
+}
+
+    .thanks_title {
+        margin-top: 20%;
+    }
+
+    .thanks_request__btn {
+        margin-left: 330px;
     }
 }
 
@@ -2035,10 +2119,6 @@
         margin-top: 50px;
     }
 
-    .accordion__content {
-        padding-right: 250px;
-    }
-
     /* стили аккордеона */
 
     .accordion__icon {
@@ -2091,38 +2171,50 @@
     }
 
     .save, .design, .comfort {
-        white-space: nowrap;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 24px;
+        margin-left: 5px;
     }
 
     .save_title {
-        size: 16px;
-        white-space: nowrap;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-top: 10px;
     }
 
-    .save {
-        padding-left: 17px;
-        padding-right: 290px;
+    .design_title {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .comfort_title {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .save_title_additionally {
+        font-size: 14px;
+        margin-left: 5px;
+        margin-top: 15px;
     }
 
     .equipment_title_two {
         display: block;
-        margin-left: 30px;
+        margin-left: 40px;
+        margin-bottom: 20px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        padding-bottom: 40px;
-        padding: 11px 30px 50px 19px;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 11px 35px 50px 19px;
     }
 
     .equipment_item_model {
         font-size: 18px;
-        margin-right: 15px;
+        align-items: right;
     }
     
     .equipment_item_old_price{
@@ -2141,13 +2233,21 @@
 
     .equipment_item_credit_price {
         margin-top: 20px;
-        white-space: nowrap;
     }
 
     .estimate_btn__js {
         margin-top: 40px;
-        margin-left: 83px;
+        margin-left: 95px;
         border-radius: 10px;
+    }
+
+    .popup_request {
+        margin-left: 70px;
+        font-size: 18px;
+    }
+
+    .label__popup {
+        font-size: 12px;
     }
 
     .slider_title_sale {
@@ -2196,17 +2296,17 @@
 
     .slider_title_two::before {
         width: 105px;
-        left: 300px;
+        left: 310px;
     }
 
     .slider_title_sale::before {
         width: 140px;
-        left: 260px;
+        left: 280px;
     }
 
     .slider_title_feedback::before {
         width: 130px;
-        left: 270px;
+        left: 280px;
     }
 
     .img_slider_one {
@@ -2215,10 +2315,6 @@
 
     .popup_request__btn {
         margin-left: 279px;
-    }
-
-    .popup_request {
-        margin-left: 45px;
     }
 
     .popup_cont {
@@ -2232,6 +2328,7 @@
     .input__est, 
     .input__popup {
         width: 260px;
+        font-size: 12px;
     }
 
     .input__est {
@@ -2693,10 +2790,6 @@
         margin-top: 50px;
     }
 
-    .accordion__content {
-        padding-right: 250px;
-    }
-
     /* стили аккордеона */
 
     .accordion__icon {
@@ -2715,6 +2808,7 @@
     
     .equipment_item_adapt {
         display: block;
+        margin-top: 8px;
     }
 
     .equipment_item_price_adapt {
@@ -2749,19 +2843,33 @@
     }
 
     .save, .design, .comfort {
-        white-space: nowrap;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 20px;
+        margin-left: -11px;
     }
 
     .save_title {
-        size: 16px;
-        white-space: nowrap;
+        margin-left: -10px;
+        font-size: 14px;
+        margin-top: 20px;
     }
 
-    .save {
-        padding-left: 17px;
-        padding-right: 290px;
+    .design_title {
+        margin-left: -10px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .comfort_title {
+        margin-left: -10px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .save_title_additionally {
+        font-size: 14px;
+        margin-left: -10px;
+        margin-top: 15px;
     }
 
     .equipment_title_two {
@@ -2780,17 +2888,14 @@
 
     .equipment_item_model {
         font-size: 18px;
-        margin-right: 15px;
     }
     
     .equipment_item_old_price{
         font-size: 16px;
-        margin-right: 15px;
     }
 
     .equipment_item_new_price {
         font-size: 18px;
-        margin-right: 15px;
     }
 
     .equipment_item_new_adapt {
@@ -2799,7 +2904,6 @@
 
     .equipment_item_credit_price {
         margin-top: 20px;
-        white-space: nowrap;
     }
 
     .estimate_btn__js {
@@ -2824,11 +2928,12 @@
     }
 
     .estimate {
+        position: fixed;
         width: 314px;
         height: 520px;
-        top: 110px;
+        top: 1505px;
         margin-left: 20px;
-    }   
+    }
 
     .credit_calc_adapt {
         margin-left: 10px;
@@ -3156,6 +3261,20 @@
         margin-left: 0px;
         padding-top: 10px;
         margin-bottom: 45px;
+        font-size: 20px;
+    }
+
+    .label__popup {
+        font-size: 12px;
+    }
+
+    .input__popup {
+        font-size: 12px;
+        width: 240px;
+    }
+
+    .checkbox__drive {
+        font-size: 12px;    
     }
 
     .popup_drive__btn {
@@ -3163,15 +3282,15 @@
     }
 
     .field_name {
-        margin-left: 5px;
+        margin-left: 22px;
     }
 
     .field_phone {
-        margin-left: 5px;
+        margin-left: 22px;
     }
 
     .field_calendar {
-        margin-left: 5px;
+        margin-left: 22px;
     }
 
     .checkbox_popup {
@@ -3290,8 +3409,9 @@
     
     .equipment_item_adapt {
         margin-top: 16px;
-        font-size: 12px;
+        font-size: 16px;
         display: block;
+        margin-right: 35px;
     }
 
 
@@ -3320,7 +3440,7 @@
     .equipment_item, .accordion__icon_adapt{
         position: absolute;
         margin-top: 230px;
-        margin-left: 95px;
+        margin-left: 118px;
     }
 
     .equipment_item_credit_price {
@@ -3328,19 +3448,32 @@
     }
 
     .save, .design, .comfort {
-        white-space: nowrap;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 20px;
+        margin-left: -10px;
+    }
+
+    .design_title {
+        font-size: 16px;
+        margin-left: -10px;
+    }
+
+    .save_title_additionally {
+        font-size: 14px;
+        margin-left: -10px;
+        margin-top: 30px;
+        margin-bottom: -40px;
     }
 
     .save_title {
-        size: 16px;
-        white-space: nowrap;
+        font-size: 16px;
+        margin-left: -10px;
+        margin-top: 30px;
     }
 
-    .save {
-        padding-left: 17px;
-        padding-right: 290px;
+    .comfort_title {
+        margin-left: -10px;
+        font-size: 16px;
     }
 
     .equip {
@@ -3357,40 +3490,42 @@
             -ms-flex-align: center;
                 align-items: center;
         padding-bottom: 40px;
-        padding: 11px 66px 50px 19px;
+        padding: 11px 19px 50px 19px;
     }
 
     .equipment_item_model {
         font-size: 16px;
         margin-top: 6px;
+        text-align: right;
     }
 
     
     .equipment_item_price_adapt {
-        font-size: 12px;
+        font-size: 14px;
         display: inline-block;
         margin-top: 5px;
     }
     
     .equipment_item_old_price{
         font-size: 16px;
+        text-align: right;
     }
 
     .equipment_item_new_price {
-        font-size: 12px;
-        margin-right: 15px;
+        font-size: 14px;
         font-weight: 600;
+        text-align: right;
     }
 
     .equipment_item_new_adapt {
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 9px;
+        text-align: right;
     }
 
     .equipment_item_credit_price {
-        margin-left: 10px;
+        text-align: center;
         margin-top: 20px;
-        white-space: nowrap;
     }
 
     .estimate_btn__js {
