@@ -1230,19 +1230,19 @@
 /* окно об отправке формы, что всё успешно */
 
 .thanks {
-    display: block;
+    display: none;
     Width: 600px;
     Height: 402px;
     top: 150px;
     position: fixed;
     margin-left: 450px;
     border-radius: 10px;
-    background-color:seagreen;
+    background-color:#F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border-radius: 10px;
-    z-index: 10;
+    z-index: 15;
 }
 
 .thanks_request__btn {
@@ -1255,7 +1255,7 @@
     border: none;
     margin-left: 550px;
     padding-bottom: 27px;
-    z-index: 10;
+    z-index: 15;
     cursor: pointer;
 }
 
@@ -1266,11 +1266,27 @@
     margin-bottom: 50px;
 }
 
+.thanks_request__btn:hover {
+    opacity: .5;
+    z-index: 10;
+}
+
 .thanks_app {
     text-align: center;
     font-size: 18px;
 }
 
+/* стили для открытия попапа */
+
+.thanks_open {
+    display: block;
+    z-index: 60;
+}
+
+.thanks_request__btn:focus {
+    opacity: .3;
+    z-index: 15;
+}
 
 
 
@@ -1472,6 +1488,7 @@
     } 
 
     .thanks {
+        display: none;
         margin-left: 240px;
     }
 
@@ -1706,6 +1723,7 @@
     }
 
     .thanks {
+        display: none;
         margin-left: 140px;
         Width: 525px;
         Height: 400px;
@@ -1773,7 +1791,7 @@
     }
       
       .wrapper__checkbox:checked ~ .wrapper__menu {
-        right: -30px;
+        right: 30px;
     }
       
       .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
@@ -2390,6 +2408,17 @@
     .feedback_container {
         margin-left: 30px;
     }
+
+    .thanks {
+        display: none;
+        margin-left: 20px;
+        Width: 400px;
+        Height: 402px;
+    }
+
+    .thanks_request__btn {
+        margin-left: 350px;
+    }
 }
 
 @media (min-width: 374px) and (max-width: 419px) {
@@ -2441,7 +2470,7 @@
     }
       
       .wrapper__checkbox:checked ~ .wrapper__menu {
-        right: 105px;
+        right: -485px;
     }
       
       .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
@@ -2535,9 +2564,10 @@
         -o-transition: all .2s linear;
         transition: all .2s linear; 
     }
-        .wrapper__menu-link:hover {
-          padding-right: 20px; 
-        }
+
+    .wrapper__menu-link:hover {
+        padding-right: 20px; 
+    }
       
 
     .header_btn_wrapper {
@@ -3049,6 +3079,17 @@
         left: 250px;
         margin-top: 15px;
     }
+
+    .thanks {
+        display: none;
+        margin-left: 20px;
+        Width: 330px;
+        Height: 310px;
+    }
+
+    .thanks_request__btn {
+        margin-left: 290px;
+    }
 }
 
 
@@ -3103,7 +3144,7 @@
     }
       
       .wrapper__checkbox:checked ~ .wrapper__menu {
-        right: -30px;
+        right: 30px;
     }
       
       .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
@@ -3606,5 +3647,18 @@
     .line_title_feedback {
         width: 85px;
         left: 215px;
+    }
+
+    .thanks {
+        display: none;
+        Width: 300px;
+        Height: 292px;
+        top: 150px;
+        position: fixed;
+        margin-left: 10px;
+    }
+
+    .thanks_request__btn {
+        margin-left: 260px;
     }
 }
