@@ -3,6 +3,7 @@ const slider = document.querySelector('.swiper-container_news');
         loop: true,
         slidesPerView:3,
         spaceBetween:10,
+        lazy: true,
         autoplay: {
             delay: 3000,
         },

@@ -8,6 +8,7 @@ slider_one.forEach((el) => {
 		wrapperClass: 'swiper-wrapper_one',
 		loop: true,
 		centerMode: true,
+		lazy: true,
 		pagination: {
 			el: '.swiper-pagination_one',
 			clickable: true,

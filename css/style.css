@@ -52,7 +52,7 @@
 }
     
 .wrapper__checkbox:checked ~ .wrapper__menu {
-    right: -30px;
+    right: -56px;
 }
   
   .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
@@ -255,7 +255,7 @@
     text-align: center;
     color: #fff;
     text-decoration: none;
-    margin-right: 83px;
+    margin-right: 55px;
 }
 
 .main_title {
@@ -1137,7 +1137,7 @@
     Height: 672px;
     top: 50px;
     position: fixed;
-    margin-left: 560px;
+    margin-left: 635px;
     border-radius: 10px;
     background-color: #F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
@@ -1300,8 +1300,8 @@
         padding: 0 100px;
     }
 
-    .wrapper__checkbox:checked ~ .wrapper__menu {
-        right: -172px;
+    .wrapper__menu {
+        margin-right: 954px;
     }
 
     .line_title_three::before {
@@ -1371,7 +1371,7 @@
     }
 
     .wrapper__menu {
-        margin-right: 785px;
+        margin-right: 710px;
     }
 
     .wrapper__button {
@@ -1381,9 +1381,7 @@
     .adress {
         padding-left: 20px;
     }
-    .wrapper__checkbox:checked ~ .wrapper__menu {
-        right: -191px;
-    }
+
     .nav {
         padding-left: 45px;
     }
@@ -1502,12 +1500,8 @@
     }
 
     .wrapper__menu {
-        margin-right: 521px;
+        margin-right: 435px;
         margin-top: 26px;
-    }
-
-    .wrapper__checkbox:checked ~ .wrapper__menu {
-        right: -180px;
     }
 
     .adress {

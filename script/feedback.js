@@ -1,9 +1,10 @@
-const slider__feedback = document.querySelector('.swiper-container_feedback'); 
+const slider__feedback = document.querySelector('.swiper-container_feedback');
 
 let mySwiper_one = new Swiper('.swiper-container_feedback', {
     loop: true,
     slidesPerView:3,
     spaceBetween:10,
+    lazy: true,
     autoplay: {
         delay: 3500,
     },

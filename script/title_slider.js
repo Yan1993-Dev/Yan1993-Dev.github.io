@@ -9,6 +9,7 @@ sliders.forEach((el) => {
 		centerMode: true,
 		observer: true,
 		observeParents: true,
+		lazy: true,
 		keyboard: {
 			enabled: true
 		},
