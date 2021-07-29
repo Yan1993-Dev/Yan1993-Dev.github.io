@@ -1,0 +1,28 @@
+<form action="mail.php" id="popup__form" class="popup" name="popupIn" enctype="multipart/form-data" method="POST">
+    <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
+    <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
+    <h2 class="popup_drive">Тест драйв</h2>
+    <div class="popup_cont">
+        <div class="field_name">
+            <label for="drive__name" class="label__popup">Имя</label>
+            <input type="text" id="drive__name" class="input__popup _req" data-validate-field="name" placeholder="Ваше имя">
+        </div>
+        <div class="field__wrapper">
+            <div class="field_phone">
+                <label for="drive__phone" class="label__popup">Телефон</label>
+                <input type="tel" id="drive__phone" data-validate-field="tel" class="input__popup" placeholder="Ваш телефон">
+            </div>
+        </div>
+        <div class="field__wrapper">
+            <div class="field_calendar">
+                <label for="drive__calendar" class="label__popup">Выберите день</label>
+                <input type="date" id="drive__datapicker" class="input__popup _req" placeholder="Нажмите">
+            </div>
+        </div>
+    </div>
+    <div class="checkbox_popup">
+        <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="personal">
+        <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
+    </div>
+    <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
+</form>

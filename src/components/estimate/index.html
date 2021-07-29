@@ -1,0 +1,27 @@
+<section class="estimate__contact estimate_open">
+    <form action="mail.php"  class="estimate" enctype="multipart/form-data" method="POST">
+        <button class="popup_request__btn" type="button" aria-label="Close button"></button>
+        <h2 class="popup_request">Оставить заявку</h2>
+        <div class="popup_cont">
+            <div class="field_name">
+                <label for="estimate__name" class="label__popup">Имя</label>
+                <input type="text" id="estimate__name" class="input__popup" data-validate-field="name__est" placeholder="Ваше имя">
+            </div>
+            <div class="field__wrapper">
+                <div class="field_phone">
+                    <label for="estimate__phone" class="label__popup">Телефон</label>
+                    <input type="tel" id="estimate__phone" class="input__popup" data-validate-field="telephone" placeholder="Ваш телефон">
+                </div>
+            </div>
+            <div class="field_est">
+                <label for="input__text" class="label__popup">Ваш вопрос</label>
+                <textarea class="input__est" id="input__text" cols="30" rows="10" placeholder="Опишите Ваш вопрос"></textarea>
+            </div>
+        </div>
+        <div class="checkbox_popup">
+            <input id="check-drive" type="checkbox" class="checkbox__input " checked value="drive" data-validate-field="estimate__personal">
+            <label for="check-drive" class="checkbox__drive">Согласие на обработку ПД</label>
+        </div>
+        <button class="btn popup_req__js open_thanks_js" type="submit">Отправить</button>
+    </form> 
+</section>

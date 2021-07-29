@@ -1,0 +1,31 @@
+<section class="credit_calc_adapt">
+    <h2 class="sub_title">
+        Калькулятор расчета кредита
+    </h2>
+    <form class="credit_calc_adaptiv" action="mail.php" method="post">
+        <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
+        <div class="field">
+            <label for="input__name" class="label__traid-in">Имя</label>
+            <input type="text" id="input__name" class="input__traid-in" data-validate-field="credit__name__adapt" placeholder="Ваше имя">
+        </div>
+        <div class="field__wrapper">
+            <div class="field">
+                <label for="credit__phone" class="label__traid-in">Телефон</label>
+                <input type="tel" id="credit__phone" class="input__traid-in" data-validate-field="credit__tel__adapt" placeholder="Ваш телефон">
+            </div>
+            <div class="field">
+                <label for="initial__payment" class="label__traid-in">Первый взнос</label>
+                <input type="text" id="input__model" class="input__traid-in" placeholder="Сумма первого взноса">
+            </div>
+            <div class="field">
+                <label for="input__phone" class="label__traid-in">Срок</label>
+                <input type="text" id="input__phone" class="input__traid-in" placeholder="Срок">
+            </div>
+        </div>
+        <div class="checkbox">
+            <input id="check-receipt" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="creditAd__personal">
+            <label for="check-receipt" class="checkbox__label">Согласие на обработку ПД</label>
+        </div>
+        <button class="btn traid__btn open_thanks_js" type="submit" >Отправить</button>
+    </form>
+</section>

@@ -1,0 +1,29 @@
+.button-style {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    @media (min-width: 320px) and (max-width: 768px) {
+      font-size: 14px;
+      line-height: 19px;
+    }
+  &:hover {
+      background-color: #C29974;
+      transition: .4s;
+    }
+    
+  &:active {
+      background-color: #CFAF91;
+      transition: .4s;
+    }
+    
+  &:disabled {
+      background-color: #C1C1C1;
+    }
+  }

@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'TacticSans-Reg';
+  src: local('TacticSans-Reg'),
+      url(../static/fonts/TacticSans-Reg.otf);
+  }
+
+*{
+  margin: 0;
+  max-width: 100%;
+  padding: 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container_site {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 195px;
+}
+
+
+p{
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container_site {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 195px;
+}
+
+
+@import "./header/header";
+@import "./accordion/equip";
+@import "./button/button";
+@import "./credit_adapt/credit_adapt";
+@import "./estimate/est";
+@import "./footer/footer";
+@import "./form_title/form_title";
+@import "./slider_feedback/slider_feedback";
+@import "./slider_news/news";
+@import "./accordion/equip";
+@import "./accordion/equip";
+@import "./accordion/equip";
+@import "./accordion/equip";
