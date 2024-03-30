@@ -6,14 +6,13 @@
 
 .container {
     margin: auto;
-    max-width: 1200px;
     background-image: url("./img/1.jpg");
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 100%;
+    max-height: 100%;
 }
 
 .parent {
@@ -150,8 +149,43 @@
     text-align: center;
     color: #FFFFFF;
 }
-/* 
-.popup {
+
+.img {
+    max-width: 1000px;
+    height: 500px;
+}
+
+.desc {
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.overlay {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #00538A;
+    opacity: 0.2;
+}
+
+.popup,
+.popup1,
+.popup2,
+.popup3,
+.popup4,
+.popup5,
+.popup6,
+.popup7,
+.popup8,
+.popup9,
+.popup10,
+.popup11,
+.popup12,
+.popup13 {
     display: none;
     position: absolute;
     z-index: 1;
@@ -159,4 +193,4 @@
 
 .open {
     display: block;
-} */
+}
