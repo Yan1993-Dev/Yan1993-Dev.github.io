@@ -12,7 +12,6 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    max-height: 100%;
 }
 
 .parent {
@@ -35,6 +34,23 @@
     height: 30px;
     border-radius: 50%;
     background-color: #00538A;
+}
+
+.div1:hover,
+.div2:hover,
+.div3:hover,
+.div4:hover,
+.div5:hover,
+.div6:hover,
+.div7:hover,
+.div8:hover,
+.div9:hover,
+.div10:hover,
+.div11:hover,
+.div12:hover,
+.div13:hover {
+    background-color: #468ef3;
+    transition: background-color 0.6s;
 }
 
 .div2 {
@@ -164,12 +180,17 @@
 }
 
 .overlay {
-    position: absolute;
+    position: fixed;
     display: none;
     width: 100%;
     height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: #00538A;
-    opacity: 0.2;
+    opacity: 0.4;
+    z-index: 2;
 }
 
 .popup,
@@ -188,9 +209,20 @@
 .popup13 {
     display: none;
     position: absolute;
-    z-index: 1;
+    z-index: 10;
 }
 
 .open {
-    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    color: #FFFFFF;
+    font-size: 40px;
+    position: absolute;
+    background: none;
+    top: -10%;
+    right: -5%;
+    border: none;
 }
